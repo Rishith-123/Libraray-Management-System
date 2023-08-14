@@ -1,10 +1,10 @@
 # Libraray-Management-System
 **Library Management System Readme**
 
-This readme file provides an overview of the Library Management System implemented using HTML, CSS, PHP, and PostgreSQL. The system is designed to efficiently manage library resources and provide users with the ability to read books online.
+This readme file provides an overview of the Library Management System implemented using HTML, CSS, PHP, and MySQL. The system is designed to efficiently manage library resources and provide users with the ability to read books online.
 
 **Project Overview:**
-The Library Management System is a web-based application that aims to streamline the management of library resources and enable users to access and read books online. The project leverages a combination of front-end technologies (HTML and CSS) and back-end technologies (PHP and PostgreSQL) to create a seamless experience for administrators and users.
+The Library Management System is a web-based application that aims to streamline the management of library resources and enable users to access and read books online. The project leverages a combination of front-end technologies (HTML and CSS) and back-end technologies (PHP and MySQL) to create a seamless experience for administrators and users.
 
 **Functionalities:**
 The project offers the following functionalities:
@@ -22,18 +22,18 @@ The project offers the following functionalities:
 - **HTML:** Utilized to structure web pages, including forms and content layout.
 - **CSS:** Employed for styling web pages, ensuring an appealing and responsive design.
 - **PHP:** Used for server-side scripting and handling various operations such as user registration, book retrieval, and interactions with the database.
-- **PostgreSQL:** Serves as the relational database management system to store book details, user information, and other relevant data.
+- **MySQL:** Serves as the relational database management system to store book details, user information, and other relevant data.
 
 **Usage:**
 1. Set up a web server (e.g., Apache) and configure it to execute PHP scripts.
 
-2. Import the provided SQL file into your PostgreSQL database to create the necessary tables for books, users, and other relevant data.
+2. Import the provided SQL file into your MySQL database to create the necessary tables for books, users, and other relevant data.
 
 3. Place the project files (HTML, CSS, PHP) within the document root directory of the web server.
 
 4. Access the project through a web browser, where the system's interface will guide you through the available functionalities.
 
-**Note:** This readme offers a high-level overview of the Library Management System. To understand the implementation details, interactions between front-end and back-end components, and the structure of the PostgreSQL database, refer to the source code and relevant documentation.
+**Note:** This readme offers a high-level overview of the Library Management System. To understand the implementation details, interactions between front-end and back-end components, and the structure of the MySQL database, refer to the source code and relevant documentation.
 
 **Contributors:**
 - V.Rishith Kumar
