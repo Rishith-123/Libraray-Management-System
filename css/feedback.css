@@ -1,0 +1,124 @@
+/*-------------------------------   FEEDBACK PAGE  ---------------------------------------------------------*/
+header
+{
+	height: 10rem;
+	width: 151.8rem;
+	background-color: black;
+	padding: 0.6rem;
+}
+li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	
+}
+.logo
+{
+	float :left;
+	padding-left: 25px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+section
+{
+	height: 551px;
+    margin-top: 20px;
+	width: 1518px;
+    background-image: url("../img/feedback.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%100%;
+}
+.wrapper
+{
+    padding: 10px;
+    margin: -20px auto;
+    width:900px;
+    height: 550px;
+    background-color: black;
+    opacity: .8;
+}
+
+
+#txtar{
+    height: 70%;
+}
+    		
+.form-control
+{
+    height: 500px;
+	width: 60%;
+}
+.scroll
+{
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: linear-gradient(brown,red);
+    color: white;
+    transition: 0.5s;
+    box-sizing: content-box;
+    border-radius: 10px;
+	padding: 4px;
+}
+footer
+{
+	height: 115px;
+	width: 1518px;
+    margin-top: -2px;
+	background-color: black;
+}
+#cpyrt{
+	padding-left: 30px;
+	margin-top: -50px;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.last{
+	color: white;
+	text-align:right;
+	margin-top: -70px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 150px 10px 0;
+
+}
+.lower{
+	text-align:right;
+	margin-top: 2px;
+}
+
+#gmail{
+	color: white;
+}
+#blue{
+	color: blue;
+}
+#fb{
+	color: blue;
+}
+#tweet{
+	color:rgba(47, 172, 255, 0.918);
+}
+#yt{
+	color:red;
+}
+#insta{
+	color:palevioletred;
+}
+
+.comment {
+	color: black;
+}
+

@@ -1,0 +1,142 @@
+/*----------------------------------------------  REGISTRATION PAGE -------------------------------------------------------------------*/
+body
+{
+	margin: 0px;
+	padding-left: 0px;
+}
+header
+{
+	height: 8rem;
+	width: 93.7rem;
+	background-color: black;
+	padding: 0.6rem;
+}
+li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	
+}
+.logo
+{
+	float :left;
+	padding-left: 25px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+.reg_img
+{
+	height: 645px;
+	margin-top: 0px;
+    width: 1518px;
+	background-image: url("../img/reg.png");
+    background-repeat: no-repeat;
+    background-size: 100%100%
+}
+.box2
+{
+	height: 610px;
+	width: 400px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+.form{
+	padding: 40px;
+}
+.form-group{
+	margin-bottom: 30px;
+	position: relative;
+	margin-top: -15px;
+}
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-group input{
+	width: 100%;
+	border: 2px solid #f0f0f0;
+	border-radius: 5px;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 3px;
+}
+input
+{
+	height: 26px;
+	width: 300px;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background: linear-gradient(brown,red);
+    color: white;
+    transition: 0.5s;
+    box-sizing: content-box;
+    border-radius: 10px;
+	padding: 4px;
+}
+footer
+{
+	height: 110px;
+	width: 1518px;
+	margin-top: -16px;
+	background-color: black;
+}
+#cpyrt{
+	padding-left: 30px;
+	margin-top: -50px;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.last{
+	color: white;
+	text-align:right;
+	margin-top: -70px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 150px 10px 0;
+
+}
+.lower{
+	text-align:right;
+	margin-top: 2px;
+}
+#gmail{
+	color: white;
+}
+#lo_col{
+	color: blue;
+}
+#fb{
+	color: blue;
+}
+#tweet{
+	color:rgba(47, 172, 255, 0.918);
+}
+#yt{
+	color:red;
+}
+#insta{
+	color:palevioletred;
+}
+#button{
+	height: 1cm;
+	width: 5cm;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-left: 100px;
+	margin-top: 20px;
+	background: gold;
+}

@@ -1,0 +1,106 @@
+body{
+    background: #fc00ff;  
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3vh;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+    color: red;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.arrange{
+    width:500px;
+    height:410px;
+    display: inline-block;
+    font-size: 20px;
+}
+.arrange img{
+    height: 265px;
+    width: 300px;
+    
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: orange;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+    padding-right: 25px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.s h3{text-align: center; text-decoration:none; font-size: 40px;}
+.search {
+    font-size: 25px;
+    text-align: center;
+    
+    margin-top: -20px;
+}
+.s{
+    background: #fc00ff;  
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff); 
+    background-size: cover;
+}
+
+.bg{
+    
+    background: #fc00ff;  
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff); 
+    margin-top: -20px;
+}
+
+.arrange h3{
+    color: yellow;
+    font-weight: 600;
+}
